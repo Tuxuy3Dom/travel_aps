@@ -1,0 +1,10 @@
+{
+	"hello": "Hello",
+	"views.auth.on_boarding.back": "Back",
+	"views.auth.on_boarding.get-started": "Get Started",
+	"views.auth.on_boarding.login": "Login",
+	"views.auth.on_boarding.registration": "Registration",
+	"views.auth.on_boarding.skip": "Skip",
+	"views.auth.on_boarding.sub-title": "Explore the world of endless travel possibilities with the most popular and useful apps that will make your journey unforgettable.",
+	"views.auth.on_boarding.title": "Find Everything in One Place!"
+}

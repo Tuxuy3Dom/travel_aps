@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682426950829",
+    "project_id": "travelaps",
+    "storage_bucket": "travelaps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682426950829:android:05158718ae64fe66845224",
+        "android_client_info": {
+          "package_name": "com.travelaps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoPcB9gyUV0zMl3nWOZ72hTXkfZWzHzVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

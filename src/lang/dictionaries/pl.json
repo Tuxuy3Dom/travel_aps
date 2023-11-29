@@ -1,0 +1,10 @@
+{
+	"hello": "Cześć",
+	"views.auth.on_boarding.back": "Powrót",
+	"views.auth.on_boarding.get-started": "Przejść do rejestracji",
+	"views.auth.on_boarding.login": "Zaloguj Się",
+	"views.auth.on_boarding.registration": "Rejestracja",
+	"views.auth.on_boarding.skip": "Pomiń",
+	"views.auth.on_boarding.sub-title": "Rozpocznij swoją przygodę z turystyką, korzystając z najpopularniejszych i najprzydatniejszych aplikacji, które uczynią Twoją podróż niezapomnianą.",
+	"views.auth.on_boarding.title": "Odkryj Wszystko w Jednym Miejscu!"
+}
