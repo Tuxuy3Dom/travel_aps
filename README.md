@@ -1,6 +1,12 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# TravelAPS - mobile application related to the tourism industry, to facilitate search and communication with other tourism applications
 
-# Getting Started
+TravelAPS - mobile application enabling the search for tourist applications available in the list, access to their description and communication with some applications via their API directly from a given application.
+
+React Native, Visual Studio Code, Android Studio, GitHub, Git Bash, Typescript
+
+## Getting Started
+
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
@@ -27,6 +33,9 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 ```bash
 # using npm
 npm run android
+
+# OR using npx
+npx react-native run-android
 
 # OR using Yarn
 yarn android
