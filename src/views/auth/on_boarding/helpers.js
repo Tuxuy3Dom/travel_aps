@@ -1,4 +1,5 @@
 import React from "react";
+import { Text } from 'react-native';
 import { FormattedMessage } from "react-intl";
 
 // Components
@@ -21,7 +22,9 @@ export function preparePages( navigation, handleNextPage, handleBack ) {
             icon: <Logo />,
             title: (<FormattedMessage defaultMessage={"Odkryj Wszystko w Jednym Miejscu!"} id={'views.auth.on_boarding.title'} />),
             subTitle: (<FormattedMessage defaultMessage={"Rozpocznij swoją przygodę z turystyką, korzystając z najpopularniejszych i najprzydatniejszych aplikacji, które uczynią Twoją podróż niezapomnianą."} id={'views.auth.on_boarding.sub-title'} />),
-            confirmButtonLabel: (<FormattedMessage defaultMessage={"Przejść do rejestracji"} id={'views.auth.on_boarding.get-started'}/>),
+            // This line use babel-edit, It is payment solution 
+            // confirmButtonLabel: (<FormattedMessage defaultMessage={"Rozpocznij"} id={'views.auth.on_boarding.get-started'}/>),
+            confirmButtonLabel: (<Text>Rozpocznij</Text>),
             confirmButtonAction: handleNextPage,
             action: (<TextButton 
                 label={<FormattedMessage defaultMessage={"Pomiń"} id={'views.auth.on_boarding.skip'} />} 

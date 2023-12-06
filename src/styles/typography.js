@@ -6,6 +6,7 @@ import { scaleFont } from "./mixins";
 export const FONT_WEIGHT_REGULAR = '400';
 export const FONT_WEIGHT_BOLD = '700';
 
+export const FONT_SIZE_36 = scaleFont(36);
 export const FONT_SIZE_28 = scaleFont(28);
 export const FONT_SIZE_24 = scaleFont(24);
 export const FONT_SIZE_20 = scaleFont(20);

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { colors } from '../../styles';
+import { colors, typography } from '../../styles';
 
 const styles = StyleSheet.create({
     root: {
@@ -8,13 +8,18 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: colors.MAIN_COLORS.ACCENT_2,
+    },
+    IrishGlover: {
+        fontFamily: 'IrishGrover-Regular',
+        fontSize: typography.FONT_SIZE_36,
+        color: '#000000',
     }
 });
 
 export default function SplashScreen() {
     return (
         <View style={styles.root}>
-            <Text>Splash Screen</Text>
+            <Text style={styles.IrishGlover}>TravelAPS</Text>
         </View>
     );
 }

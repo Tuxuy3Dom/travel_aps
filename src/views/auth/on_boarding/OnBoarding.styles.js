@@ -1,22 +1,22 @@
-import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 import { colors, spacing, typography } from '../../../styles';
 
 export default StyleSheet.create({
     root: {
         height: '100%',
-
     },
     container: {
         flex: 1,
-        paddingHorizontal: spacing.SCALE_18,
-        paddingVertical: spacing.SCALE_18,
+        paddingHorizontal: spacing.SCALE_16,
+        paddingVertical: spacing.SCALE_50 * 3,
         justifyContent: "space-between",
     },
     skipButton: {
-        color: colors.ADDITIONAL_COLORS.TEXT.HINT,
+        color: 'white',
+        // color: colors.ADDITIONAL_COLORS.TEXT.HINT,
     },
     testButton: {
-        color: 'red',
+        color: 'white',
     },
     actionContainer: {
         alignItems: 'flex-end',
@@ -26,6 +26,7 @@ export default StyleSheet.create({
 
     },
     title: {
+        color: 'white',
         ...typography.FONT_BOLD,
         textAlign: 'center',
         fontSize: typography.FONT_SIZE_18,
@@ -33,7 +34,8 @@ export default StyleSheet.create({
     },
     subTitle: {
         textAlign: 'center',
-        color: colors.ADDITIONAL_COLORS.TEXT.HINT,
+        color: 'white',
+        // color: colors.ADDITIONAL_COLORS.TEXT.HINT,
         paddingVertical: spacing.SCALE_8
     },
 });

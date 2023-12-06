@@ -5,7 +5,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import * as RNLocalize from 'react-native-localize';
 
 import LangProvider, { LangModeProvider } from "./src/lang/LangProvider";
-import SplashNavigation from './src/navigation/SplashNavigator';
 import Routes from './src/navigation/Routes';
 
 export default function App(){
